@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07580B89B02EA0027150ABE1 /* Pods_PixabayImageSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9083F35F3262B3EEED7F6E17 /* Pods_PixabayImageSearch.framework */; };
+		A32F23432494D37A0061F2C4 /* QueryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F23422494D37A0061F2C4 /* QueryService.swift */; };
+		A32F23462494D94C0061F2C4 /* ImagesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F23452494D94C0061F2C4 /* ImagesListTableViewCell.swift */; };
+		A32F234824951F000061F2C4 /* ImagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F234724951F000061F2C4 /* ImagesListViewController.swift */; };
+		A32F234A249527740061F2C4 /* ImagesSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F2349249527740061F2C4 /* ImagesSearchTableViewCell.swift */; };
 		A3B06CFC2493B82100458F60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06CFB2493B82100458F60 /* AppDelegate.swift */; };
-		A3B06CFE2493B82100458F60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06CFD2493B82100458F60 /* SceneDelegate.swift */; };
-		A3B06D002493B82100458F60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06CFF2493B82100458F60 /* ViewController.swift */; };
 		A3B06D032493B82100458F60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B06D012493B82100458F60 /* Main.storyboard */; };
 		A3B06D052493B84800458F60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3B06D042493B84800458F60 /* Assets.xcassets */; };
 		A3B06D082493B84800458F60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B06D062493B84800458F60 /* LaunchScreen.storyboard */; };
+		A3B06D112493BA0E00458F60 /* ImagesSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06D102493BA0E00458F60 /* ImagesSearchViewController.swift */; };
+		A3B06D172493BC6000458F60 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06D162493BC6000458F60 /* NavigationController.swift */; };
+		A3B06D1A2493BD2200458F60 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06D192493BD2200458F60 /* UIColorExtensions.swift */; };
+		A3B06D1D2493BE9100458F60 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06D1C2493BE9100458F60 /* AppController.swift */; };
+		A3B06D212493CE5B00458F60 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06D1F2493CE5B00458F60 /* Images.swift */; };
+		A3B06D222493CE5B00458F60 /* Hits.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06D202493CE5B00458F60 /* Hits.swift */; };
+		A3B06D252493CEAF00458F60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06D242493CEAF00458F60 /* Constants.swift */; };
+		A3B06D272493CF2F00458F60 /* PixabayApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06D262493CF2F00458F60 /* PixabayApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C905A745D801973300DC09C /* Pods-PixabayImageSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayImageSearch.debug.xcconfig"; path = "Target Support Files/Pods-PixabayImageSearch/Pods-PixabayImageSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		7C121519EA49AADCBFB43781 /* Pods-PixabayImageSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixabayImageSearch.release.xcconfig"; path = "Target Support Files/Pods-PixabayImageSearch/Pods-PixabayImageSearch.release.xcconfig"; sourceTree = "<group>"; };
+		9083F35F3262B3EEED7F6E17 /* Pods_PixabayImageSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixabayImageSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32F23422494D37A0061F2C4 /* QueryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryService.swift; sourceTree = "<group>"; };
+		A32F23452494D94C0061F2C4 /* ImagesListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListTableViewCell.swift; sourceTree = "<group>"; };
+		A32F234724951F000061F2C4 /* ImagesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListViewController.swift; sourceTree = "<group>"; };
+		A32F2349249527740061F2C4 /* ImagesSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesSearchTableViewCell.swift; sourceTree = "<group>"; };
 		A3B06CF82493B82100458F60 /* PixabayImageSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixabayImageSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B06CFB2493B82100458F60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3B06CFD2493B82100458F60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3B06CFF2493B82100458F60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3B06D022493B82100458F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3B06D042493B84800458F60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3B06D072493B84800458F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3B06D092493B84800458F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B06D102493BA0E00458F60 /* ImagesSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesSearchViewController.swift; sourceTree = "<group>"; };
+		A3B06D162493BC6000458F60 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		A3B06D192493BD2200458F60 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		A3B06D1C2493BE9100458F60 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		A3B06D1F2493CE5B00458F60 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		A3B06D202493CE5B00458F60 /* Hits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hits.swift; sourceTree = "<group>"; };
+		A3B06D242493CEAF00458F60 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A3B06D262493CF2F00458F60 /* PixabayApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07580B89B02EA0027150ABE1 /* Pods_PixabayImageSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A32F23412494D3490061F2C4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A32F23422494D37A0061F2C4 /* QueryService.swift */,
+				A3B06D262493CF2F00458F60 /* PixabayApi.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A32F23442494D9320061F2C4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A32F23452494D94C0061F2C4 /* ImagesListTableViewCell.swift */,
+				A32F2349249527740061F2C4 /* ImagesSearchTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		A3B06CEF2493B82100458F60 = {
 			isa = PBXGroup;
 			children = (
 				A3B06CFA2493B82100458F60 /* PixabayImageSearch */,
 				A3B06CF92493B82100458F60 /* Products */,
+				E5F876073F2A9C2FD76C2364 /* Pods */,
+				C8595EB0D9402CB9119557AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,80 @@
 		A3B06CFA2493B82100458F60 /* PixabayImageSearch */ = {
 			isa = PBXGroup;
 			children = (
-				A3B06CFB2493B82100458F60 /* AppDelegate.swift */,
-				A3B06CFD2493B82100458F60 /* SceneDelegate.swift */,
-				A3B06CFF2493B82100458F60 /* ViewController.swift */,
+				A3B06D232493CE8D00458F60 /* Utility */,
+				A32F23442494D9320061F2C4 /* Cells */,
+				A3B06D1B2493BE3900458F60 /* AppDelegate */,
+				A3B06D182493BD0B00458F60 /* Extensions */,
+				A3B06D0F2493B9E800458F60 /* ViewControllers */,
+				A32F23412494D3490061F2C4 /* Networking */,
+				A3B06D1E2493CC5C00458F60 /* Helpers */,
 				A3B06D012493B82100458F60 /* Main.storyboard */,
 				A3B06D042493B84800458F60 /* Assets.xcassets */,
 				A3B06D062493B84800458F60 /* LaunchScreen.storyboard */,
 				A3B06D092493B84800458F60 /* Info.plist */,
 			);
 			path = PixabayImageSearch;
+			sourceTree = "<group>";
+		};
+		A3B06D0F2493B9E800458F60 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3B06D102493BA0E00458F60 /* ImagesSearchViewController.swift */,
+				A3B06D162493BC6000458F60 /* NavigationController.swift */,
+				A32F234724951F000061F2C4 /* ImagesListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A3B06D182493BD0B00458F60 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A3B06D192493BD2200458F60 /* UIColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A3B06D1B2493BE3900458F60 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A3B06CFB2493B82100458F60 /* AppDelegate.swift */,
+				A3B06D1C2493BE9100458F60 /* AppController.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A3B06D1E2493CC5C00458F60 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A3B06D202493CE5B00458F60 /* Hits.swift */,
+				A3B06D1F2493CE5B00458F60 /* Images.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A3B06D232493CE8D00458F60 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A3B06D242493CEAF00458F60 /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C8595EB0D9402CB9119557AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9083F35F3262B3EEED7F6E17 /* Pods_PixabayImageSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5F876073F2A9C2FD76C2364 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C905A745D801973300DC09C /* Pods-PixabayImageSearch.debug.xcconfig */,
+				7C121519EA49AADCBFB43781 /* Pods-PixabayImageSearch.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3B06D0C2493B84800458F60 /* Build configuration list for PBXNativeTarget "PixabayImageSearch" */;
 			buildPhases = (
+				C54F9325BAE0E2DF7112BF3B /* [CP] Check Pods Manifest.lock */,
 				A3B06CF42493B82100458F60 /* Sources */,
 				A3B06CF52493B82100458F60 /* Frameworks */,
 				A3B06CF62493B82100458F60 /* Resources */,
+				369AA5208BB56CA83404CB96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +245,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		369AA5208BB56CA83404CB96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PixabayImageSearch/Pods-PixabayImageSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PixabayImageSearch/Pods-PixabayImageSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PixabayImageSearch/Pods-PixabayImageSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C54F9325BAE0E2DF7112BF3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PixabayImageSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3B06CF42493B82100458F60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3B06D002493B82100458F60 /* ViewController.swift in Sources */,
+				A3B06D272493CF2F00458F60 /* PixabayApi.swift in Sources */,
+				A32F234824951F000061F2C4 /* ImagesListViewController.swift in Sources */,
 				A3B06CFC2493B82100458F60 /* AppDelegate.swift in Sources */,
-				A3B06CFE2493B82100458F60 /* SceneDelegate.swift in Sources */,
+				A3B06D212493CE5B00458F60 /* Images.swift in Sources */,
+				A3B06D1D2493BE9100458F60 /* AppController.swift in Sources */,
+				A32F23462494D94C0061F2C4 /* ImagesListTableViewCell.swift in Sources */,
+				A3B06D172493BC6000458F60 /* NavigationController.swift in Sources */,
+				A3B06D112493BA0E00458F60 /* ImagesSearchViewController.swift in Sources */,
+				A3B06D1A2493BD2200458F60 /* UIColorExtensions.swift in Sources */,
+				A32F23432494D37A0061F2C4 /* QueryService.swift in Sources */,
+				A32F234A249527740061F2C4 /* ImagesSearchTableViewCell.swift in Sources */,
+				A3B06D222493CE5B00458F60 /* Hits.swift in Sources */,
+				A3B06D252493CEAF00458F60 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,10 +446,11 @@
 		};
 		A3B06D0D2493B84800458F60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C905A745D801973300DC09C /* Pods-PixabayImageSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3T2B8BGGXW;
+				DEVELOPMENT_TEAM = 8DDDX4J68F;
 				INFOPLIST_FILE = PixabayImageSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,10 +465,11 @@
 		};
 		A3B06D0E2493B84800458F60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C121519EA49AADCBFB43781 /* Pods-PixabayImageSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3T2B8BGGXW;
+				DEVELOPMENT_TEAM = 8DDDX4J68F;
 				INFOPLIST_FILE = PixabayImageSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

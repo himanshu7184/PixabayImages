@@ -1,0 +1,22 @@
+PODS:
+  - SDWebImage (5.4.1):
+    - SDWebImage/Core (= 5.4.1)
+  - SDWebImage/Core (5.4.1)
+  - SKPhotoBrowser (6.1.0)
+
+DEPENDENCIES:
+  - SDWebImage
+  - SKPhotoBrowser
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - SKPhotoBrowser
+
+SPEC CHECKSUMS:
+  SDWebImage: 29c340dbdcef342bb13125553f4e19ce056b07a7
+  SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
+
+PODFILE CHECKSUM: d914765dd1d335fedd8195f620d64eed2aced424
+
+COCOAPODS: 1.8.4
